@@ -19,13 +19,14 @@ It’s easy to get lost in time and labirints of alternative realities, therefor
 ### Installation: `npm i`
 ### API methods
 
-* `debug_transferTrace` - our magic complete block traces. Example: [debug_transferTrace.js](debug_transferTrace.js). As well you can use our async-generator based code for travesing those traces https://www.npmjs.com/package/@parsiq/block-tracer. Good explanation of our data model can be found in [our strongly typed library](  https://github.com/parsiq/block-tracer/blob/master/src/lib/block-trace.type.ts#L94)
+* `debug_transferTrace` - our magical block traces. Example: [debug_transferTrace.js](debug_transferTrace.js). 
 * `debug_injectCallBulk` - inject custom EVM byte code to transaction. Example: [debug_injectCallBulk.js](debug_injectCallBulk.js)
 * `eth_parsiqContractInfoByAddress` - get contract details by address. Example: [eth_parsiqContractInfoByAddress.js](eth_parsiqContractInfoByAddress.js)
 * `eth_parsiqContractDataByHash.js` - get contract data by hash. Example: [eth_parsiqContractDataByHash.js](eth_parsiqContractDataByHash.js)
 
 
 Our magical instrumented node is located at https://ethdenver-parsiq.net:2096/ and will be available open source.
+As well you can use our [async-generator based code](https://www.npmjs.com/package/@parsiq/block-tracer) for traversing traces produced by `debug_transferTrace`. Good explanation of our data model can be found in [our strongly typed library](https://github.com/parsiq/block-tracer/blob/master/src/lib/block-trace.type.ts#L94)
 
 > Although time traveling is fun, doing it without a purpose might be a waste of time.
 
