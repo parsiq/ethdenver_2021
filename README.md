@@ -26,15 +26,17 @@ It’s easy to get lost in time and labirints of alternative realities, therefor
 
 
 Our magical instrumented node is located at https://ethdenver-parsiq.net:2096/ and will be available open source.
-As well you can use our [async-generator based code](https://www.npmjs.com/package/@parsiq/block-tracer) for traversing traces produced by `debug_transferTrace`. Good explanation of our data model can be found in [our strongly typed library](https://github.com/parsiq/block-tracer/blob/master/src/lib/block-trace.type.ts#L94)
 
-> Although time traveling is fun, doing it without a purpose might be a waste of time.
+Please, take a look at our [async-generator based code](https://www.npmjs.com/package/@parsiq/block-tracer) for traversing traces produced by `debug_transferTrace`. It will give you a lot of information about our data model of block traces. Start from `BlockTrace` type definition in [our strongly typed library](https://github.com/parsiq/block-tracer/blob/master/src/lib/block-trace.type.ts#L94)
 
-What could be more fun than time traveling? Right! Time traveling with bounty hunting! We have prepared some challenges for our ETHDenver2021 buidlers! 
+## Bounties
+
+Although time traveling is fun, doing it without a purpose might be a waste of time. What could be more fun than time traveling? Right! Time traveling with ___bounty hunting!___
+We have prepared some challenges for our ETHDenver2021 buidlers! 
 
 
-## Bounty 1:  Advanced Block Explorer
-### Prize: 2000 usd
+### Bounty 1:  Advanced Block Explorer
+#### Prize: 2000 usd
 
 We encourage you to create a data rich Ethereum block explorer leveraging PARSIQ Ethereum node API. It should be able to present and explore various data provided by our API, for example hierarchical traces of all transactions in a block together with their time-codes in terms of gas.
 
@@ -46,8 +48,8 @@ We expect the team to build a complete Web Application (backend and frontend) th
 * ___Interoperability___. Being ready to integrate with expression debugger from Bounty 2.
 * ___Future proofness___. Being ready to evolve into a public block explorer.
 
-## Bounty 2:  Solidity Expression Evaluator (What-If Analysis). 
-### Prize: 2000 usd
+### Bounty 2:  Solidity Expression Evaluator (What-If Analysis). 
+#### Prize: 2000 usd
 
 We encourage you to create a tool for “What-If” analysis that will work within all the history of Ethereum Mainnet. Leveraging the PARSIQ Ethereum node API you will be able to specify a block hash, a transaction index, a gas amount spent from the beginning of the transaction, and your custom EVM bytecode you want to execute. You can even fine tune the available gas amount to be able to execute your logic. The API will return a trace of your injected EVM bytecode in the very same format our block tracer is built upon. Should you inject any calls, logs, or other opcodes their traces will be returned to you for further analysis.
 
@@ -62,8 +64,8 @@ We expect the solution to allow a user to express arbitrary smart contract funct
 * ___Interoperability___. Being ready to integrate with the Block Explorer from Bounty A
 * ___Future proofness___. Being ready to evolve and extend the functionality.
       
-## Bounty 3: Creative ParsiQL Scripts. 
-### Prize: 1st 500 usd; 2nd 350 usd; 3rd 150 usd
+### Bounty 3: Creative ParsiQL Scripts. 
+#### Prize: 1st 500 usd; 2nd 350 usd; 3rd 150 usd
 
 We encourage you to try our domain specific language ParsiQL to process blockchain events in real time and build amazing notifications and automations.
 Our language is highly inspired by LINQ (by Anders Hejlsberg). Although ParsiQL is at a very early stage of development it is more flexible in terms of integrations and data-sources. 
@@ -71,7 +73,7 @@ Our language is highly inspired by LINQ (by Anders Hejlsberg). Although ParsiQL 
 It allows you to augment blockchain data with the data from external sources such as  market data or transaction risk scoring data (in commercial versions - available to try at buidlathon time upon request). Moreover, you can maintain a state within your stream definitions, which allows you to analyse asset flows, turnovers, trading pressures etc. Imaging all of that being performed in real time on the superposition of all valid branches of a blockchain.
 You can find a number of useful examples that can aid mastering ParsiQL at https://docs.parsiq.net/parsiql/code-samples
 
-### Criteria:
+#### Criteria:
 * We don’t put any specific criteria on what to do in this category. The only criteria is creativity and ability to demonstrate real automations built on top of our API.
 
 # Take your time and choose wisely. Happy hacking! 
