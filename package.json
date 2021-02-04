@@ -1,0 +1,22 @@
+{
+  "name": "ethdenver_2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "debugInjectBulk.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parsiq/ethdenver_2021.git"
+  },
+  "author": "Parsiq team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/parsiq/ethdenver_2021/issues"
+  },
+  "homepage": "https://github.com/parsiq/ethdenver_2021#readme",
+  "dependencies": {
+    "node-jsonrpc-client": "^1.0.3"
+  }
+}
