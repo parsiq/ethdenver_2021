@@ -19,13 +19,12 @@ It’s easy to get lost in time and labirints of alternative realities, therefor
 ### Installation: `npm i`
 ### API methods
 
-* `debug_transferTrace` - our magical block traces. Example: [debug_transferTrace.js](debug_transferTrace.js). 
+* `debug_transferTrace` - our famous block traces. Example: [debug_transferTrace.js](debug_transferTrace.js). 
 * `debug_injectCallBulk` - inject custom EVM byte code to transaction. Example: [debug_injectCallBulk.js](debug_injectCallBulk.js)
 * `eth_parsiqContractInfoByAddress` - get contract details by address. Example: [eth_parsiqContractInfoByAddress.js](eth_parsiqContractInfoByAddress.js)
 * `eth_parsiqContractDataByHash.js` - get contract data by hash. Example: [eth_parsiqContractDataByHash.js](eth_parsiqContractDataByHash.js)
 
-
-Our magical instrumented node is located at https://ethdenver-parsiq.net:2096/ and will be available open source.
+Our magical instrumented node is located at https://ethdenver-parsiq.net:2096/ and will be available open source as an instrumentation of `geth`.
 
 Please, take a look at our [async-generator based code](https://www.npmjs.com/package/@parsiq/block-tracer) for traversing traces produced by `debug_transferTrace`. It will give you a lot of information about our data model of block traces. Start from `BlockTrace` type definition in [our strongly typed library](https://github.com/parsiq/block-tracer/blob/master/src/lib/block-trace.type.ts#L94)
 
@@ -47,6 +46,8 @@ We expect the team to build a complete Web Application (backend and frontend) th
 * ___Resource friendliness___. For example by caching API responses when possible.
 * ___Interoperability___. Being ready to integrate with expression debugger from Bounty 2.
 * ___Future proofness___. Being ready to evolve into a public block explorer.
+
+_Hint: use `debug_transferTrace`, `eth_parsiqContractInfoByAddress` on CREATE/CREATE2/SELFDESTRUCT and `eth_parsiqContractDataByHash` if you want to retrive actual EVM bytecode by it's hash (if needed)_.
 
 ### Bounty 2:  Solidity Expression Evaluator (What-If Analysis). 
 #### Prize: 2000 usd
