@@ -6,14 +6,14 @@ Now we want to make time traveling available for every blockchain developer. Tod
 
 Every time traveller needs a robust toolchain. Here is your time traveler starter pack.
 
-First and foremost you need a time travel machine. This is an instrumented Ethereum blockchain archive node, which is packed and ready for long trips in time. There are several unique JSON-RPC Requests at your disposal which give you tons of information about the past, present and future.
+* First and foremost you need a time travel machine. This is an instrumented Ethereum blockchain archive node, which is packed and ready for long trips in time. There are several unique JSON-RPC Requests at your disposal which give you tons of information about the past, present and future.
 
+* You can get concise yet detailed block traces, which provide structured information about all the state changes within any transaction at any point in time. We believe that at PARSIQ we found an optimal amount of information that allows us to answer various questions about any intermediate state and even perform a What-If analysis. 
 
-You can get concise yet detailed block traces, which provide structured information about all the state changes within any transaction at any point in time. We believe that at PARSIQ we found an optimal amount of information that allows us to answer various questions about any intermediate state and even perform a What-If analysis. 
+* You will be able to inject your own EVM bytecode to any transaction at the specific point in time and receive results of the execution. The point in time defined by the gas amount consumed up-to specific opcode.
 
-You will be able to inject your own EVM bytecode to any transaction at the specific point in time and receive results of the execution. The point in time defined by the gas amount consumed up-to specific opcode.
+* You can observe smart contracts throughout their lifecycle and inspect the history of CREATE/CREATE2/SELFDESTRUCT with code and code hashes.
 
-You can observe smart contracts throughout their lifecycle and inspect the history of CREATE/CREATE2/SELFDESTRUCT with code and code hashes.
 It’s easy to get lost in time and labirints of alternative realities, therefore you need a map and compass. These are our examples. We have prepared several examples which demonstrate how to request data from our node, how to get transaction trace, inject custom bytecode etc. Hopefully this will make your time traveler life easier!
 
 ### Installation: `npm i`
