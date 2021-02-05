@@ -58,6 +58,8 @@ This functionality is similar to “break point/eval expression” features offe
 
 We expect the team to develop a visual solution that will allow users to define and inject code to perform What-If analysis. The user must be able to write instructions in more developer-friendly language, other than EVM bytecode. For example, it can be Solidity or some subset of Solidity or a custom Solidity-like language.
 
+> Hey! It is simpler than you probably think! Just take a look how to return a value from a transaction, or take a balance of any account at given opcode: [debug_injectCallBulk.js](debug_injectCallBulk.js). If you can encode ABI calls you are probably on a half way to the bounty. Yet we expect something creative
+
 We expect the solution to allow a user to express arbitrary smart contract function call with given parameters. This might be achieved by providing a target smart contract ABI. To illustrate this functionality, imagine you can take an arbitrary transaction and inject the custom code which calls the Uniswap contract to get an exchange rate for a specific pair. In other words you will be able to take any transaction and answer a question like “What was the PRQ-ETH pair exchange rate on Uniswap when this opcode is executed?”
 
 #### Desired properties of the solution:
