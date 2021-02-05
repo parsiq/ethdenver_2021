@@ -1,4 +1,4 @@
-# ETHDenver2021 Starter Pack
+# ETHDenver2021 PARSIQ Starter Pack
 
 Here at PARSIQ we proved that time travel is possible!
 
@@ -28,9 +28,11 @@ Our magical instrumented node is located at https://ethdenver-parsiq.net:2096/ a
 
 Please, take a look at our [async-generator based code](https://www.npmjs.com/package/@parsiq/block-tracer) for traversing traces produced by `debug_transferTrace`. It will give you a lot of information about our data model of block traces. Start from `BlockTrace` type definition in [our strongly typed library](https://github.com/parsiq/block-tracer/blob/master/src/lib/block-trace.type.ts#L94)
 
-## Bounties
+## Bounties: Find your team and buidl together!
 
-Although time traveling is fun, doing it without a purpose might be a waste of time. What could be more fun than time traveling? Right! Time traveling with ___bounty hunting!___
+Although time traveling is fun, doing it without a purpose might be a waste of time. 
+
+What could be more fun than time traveling? Right! Time traveling with ___bounty hunting!___
 We have prepared some challenges for our ETHDenver2021 buidlers! 
 
 
