@@ -51,6 +51,8 @@ We expect the team to build a complete Web Application (backend and frontend) th
 
 > Hint: use `debug_transferTrace`, `eth_parsiqContractInfoByAddress` on CREATE/CREATE2/SELFDESTRUCT and `eth_parsiqContractDataByHash` if you want to retrive actual EVM bytecode by it's hash (if needed).
 
+![Possible Sketch](Parsiq-Block-Explorer-Sketches.jpg)
+
 ### Bounty 2:  Solidity Expression Evaluator (What-If Analysis). 
 #### Prize: 2000 usd
 
